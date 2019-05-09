@@ -23,7 +23,7 @@
 *** is used.
 */
 typedef enum {Water, Boat, Unknown, OutOfRange} CellContent;
-
+void PlaceWater(int row, int col);
 /**
 *** Loads the two files battleship.my and battleship.op which hold the fields
 *** of the players. The files hold a stream of 10 times 10 values of type
